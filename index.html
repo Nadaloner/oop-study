@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OOP in C++ · Percorso di studio</title>
+  <meta name="description" content="Percorso di studio di OOP in C++: teoria essenziale, esercizi con soluzioni e progresso giornaliero.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9A%99%EF%B8%8F%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/">⚙️ <span>OOP in C++</span></a>
+    <nav class="top-actions" aria-label="Azioni">
+      <button id="btn-export" class="ghost" type="button" title="Scarica il progresso come file JSON">Esporta</button>
+      <label class="ghost button-like" title="Importa un progresso JSON">Importa
+        <input id="file-import" type="file" accept="application/json" hidden>
+      </label>
+      <button id="btn-theme" class="ghost" type="button" aria-label="Cambia tema">◐</button>
+    </nav>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar" id="sidebar" aria-label="Moduli"></aside>
+    <main id="app" class="content" aria-live="polite">
+      <p class="muted">Caricamento…</p>
+    </main>
+  </div>
+
+  <footer class="footer">
+    Il progresso è salvato nel browser (localStorage). Su un altro dispositivo usa <em>Esporta</em> / <em>Importa</em>.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

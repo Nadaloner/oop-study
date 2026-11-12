@@ -1,0 +1,59 @@
+{
+  "titolo": "OOP in C++",
+  "modules": [
+    {
+      "id": "00-metodo",
+      "title": "0 · Metodo e strumenti",
+      "ore": 1,
+      "desc": "Come studiare, come compilare con i sanitizer, test di ingresso."
+    },
+    {
+      "id": "01-classi",
+      "title": "1 · Classi e incapsulamento",
+      "ore": 4,
+      "desc": "private/public, costruttori, invariante, explicit, membri static, ordine di costruzione. Esercizi A1–A8."
+    },
+    {
+      "id": "02-risorse",
+      "title": "2 · Risorse e strutture dinamiche",
+      "ore": 5,
+      "desc": "Regola dei tre, copia profonda, RAII, Matrice, Coda, Vettore, Tree. Esercizi A9–A12 e dagli esercizi svolti."
+    },
+    {
+      "id": "03-references",
+      "title": "3 · Riferimenti (references)",
+      "ore": 3,
+      "desc": "Alias, passaggio e restituzione per riferimento, dangling reference. Dalle slide «const saga»."
+    },
+    {
+      "id": "04-const",
+      "title": "4 · const-correctness",
+      "ore": 4,
+      "desc": "const su variabili, puntatori e riferimenti; metodi const; mutable; costanti di classe. Esercizi B1–B8."
+    },
+    {
+      "id": "05-cast-primitivi",
+      "title": "5 · Conversioni e cast tra tipi primitivi",
+      "ore": 4,
+      "desc": "Conversioni implicite, narrowing, static_cast, trappole signed/unsigned, bool. Esercizi C1–C8."
+    },
+    {
+      "id": "06-cast-oggetti",
+      "title": "6 · Conversioni utente e cast tra oggetti",
+      "ore": 6,
+      "desc": "explicit, operator T, polimorfismo, dynamic_cast, distruttore virtuale, slicing, const_cast, reinterpret_cast. Esercizi D1–D13."
+    },
+    {
+      "id": "07-template-esame",
+      "title": "7 · Template e puzzle da esame",
+      "ore": 5,
+      "desc": "Raz, Tree, albero<T>, dList<T>, Z e C template, output a sorpresa. Dalla cartella «Soluzioni esercizi svolti»."
+    },
+    {
+      "id": "08-esame",
+      "title": "8 · Esame integrato",
+      "ore": 5,
+      "desc": "Biblioteca, registro voti, trova gli errori, conversioni controllate, dal C al C++. Esercizi E1–E5."
+    }
+  ]
+}
